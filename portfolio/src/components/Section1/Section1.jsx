@@ -1,5 +1,6 @@
 import React from 'react';
 import background from '../../assets/background.jpg'; 
+import Hero from './Hero';
 import Navbar from './Navbar';
 const Section1 = () => {
   return (
@@ -8,6 +9,7 @@ const Section1 = () => {
       style={{ backgroundImage: `url(${background})` }}
     >
      <Navbar></Navbar> 
+     <Hero></Hero>
     </div>
   );
 };

@@ -4,10 +4,10 @@ import Aboutme from './Aboutme';
 const Section2 = () => {
     return (
         <div
-            className="h-screen w-full bg-cover bg-center"
+            className="min-h-screen w-full bg-cover bg-center"
             style={{ backgroundImage: `url(${background})` }}
         >
-                <Aboutme></Aboutme>
+            <Aboutme></Aboutme>
         </div>
     );
 }

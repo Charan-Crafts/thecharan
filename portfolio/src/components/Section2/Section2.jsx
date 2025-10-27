@@ -2,6 +2,7 @@ import React from 'react';
 import background from "../../assets/Background2.jpg"
 import Aboutme from './Aboutme';
 import WhatICanDo from './WhatICanDo';
+import Experience from './Experience'
 const Section2 = () => {
     return (
         <div
@@ -9,7 +10,9 @@ const Section2 = () => {
             style={{ backgroundImage: `url(${background})` }}
         >
             <Aboutme></Aboutme>
+            <Experience/>
             <WhatICanDo></WhatICanDo>
+        
         </div>
     );
 }

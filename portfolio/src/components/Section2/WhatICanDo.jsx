@@ -16,7 +16,7 @@ const WhatICanDo = () => {
     return (
         <div className="min-h-[60vh] w-full px-4 sm:px-6 lg:px-10 py-5">
             <div className="w-full h-1/4 flex items-center justify-center mb-8">
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif text-white text-center">Skills</h1>
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif text-yellow-200 text-center">Skills</h1>
             </div>
 
             {/* Marquee example */}

@@ -36,7 +36,7 @@ const Aboutme = () => {
 
               <h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold py-1 text-yellow-300 mt-6 mb-3'>Tech Stack</h2>
 
-              <p className='px-3 font-extralight text-white text-sm sm:text-base lg:text-lg'>React, Node.js, MongoDB, Docker, AWS (S3, EC2), LangChain, n8n
+              <p className='px-3 font-extralight text-white text-sm sm:text-base lg:text-lg'>React, Node.js, MongoDB, Spring-boot,Microservices,Docker, AWS (S3, EC2), LangChain, n8n.
               </p>
             </div>
             <div></div>

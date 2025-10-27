@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'remixicon/fonts/remixicon.css'
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -17,9 +17,9 @@ const Navbar = () => {
             {/* Desktop Navigation */}
             <div className='hidden md:flex items-center justify-center flex-1 px-4'>
                 <div className='flex space-x-8'>
-                    <button className='text-lg lg:text-2xl font-mono text-shadow-white text-white cursor-pointer hover:text-yellow-200 transition-colors'>Home</button>
+                    <Link to="/" className='text-lg lg:text-2xl font-mono text-shadow-white text-white cursor-pointer hover:text-yellow-200 transition-colors'>Home</Link>
                     <button className='text-lg lg:text-2xl font-mono text-shadow-white text-white cursor-pointer hover:text-yellow-200 transition-colors'>About</button>
-                    <button className='text-lg lg:text-2xl font-mono text-shadow-white text-white cursor-pointer hover:text-yellow-200 transition-colors'>Resume</button>
+                    <Link to="/resume"className='text-lg lg:text-2xl font-mono text-shadow-white text-white cursor-pointer hover:text-yellow-200 transition-colors'>Resume</Link>
                 </div>
             </div>
 

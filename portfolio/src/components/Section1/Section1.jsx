@@ -8,7 +8,7 @@ const Section1 = () => {
       className="h-screen w-full bg-cover bg-center"
       style={{ backgroundImage: `url(${background})` }}
     >
-     <Navbar></Navbar> 
+     <Navbar></Navbar>
      <Hero></Hero>
     </div>
   );

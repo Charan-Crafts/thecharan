@@ -2,7 +2,7 @@ import React from 'react';
 import Coding from '../../assets/Coding.jpg'
 const Aboutme = () => {
   return (
-    <div className='min-h-[90vh] w-full flex justify-center px-4 sm:px-6 lg:px-8 py-8'>
+    <div id="about" className='min-h-[90vh] w-full flex justify-center px-4 sm:px-6 lg:px-8 py-8'>
       <div className='w-full sm:w-11/12 lg:w-3/4 h-full'>
         <h2 className='text-center text-2xl sm:text-3xl lg:text-4xl font-serif text-yellow-200 mb-4'>About me</h2>
         <hr className='text-white mt-3 font-extralight' />

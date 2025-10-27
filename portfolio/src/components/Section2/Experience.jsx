@@ -11,7 +11,7 @@ const Experience = () => {
                         <div>
                             <h2 className='text-xl sm:text-2xl lg:text-3xl font-semibold text-white mb-2'>
                                 Hysteresis –
-                                <span className='text-yellow-300 ml-2'>Software Development Intern</span>
+                                <span className='text-yellow-300 ml-2'>Full Stack Developer Intern</span>
                             </h2>
                         </div>
 

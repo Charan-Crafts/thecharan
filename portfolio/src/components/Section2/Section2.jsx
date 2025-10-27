@@ -12,7 +12,7 @@ const Section2 = () => {
             <Aboutme></Aboutme>
             <Experience/>
             <WhatICanDo></WhatICanDo>
-        
+            
         </div>
     );
 }
